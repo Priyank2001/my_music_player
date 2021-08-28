@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+._footer_n{
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(13, 1, 15,0.8);
+    position: absolute;
+    display: flex;
+    
+}
+._footer_n_div{
+    height: 20vh;
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(36, 1, 56));
+}
+
+._footer_n_controls_div{
+    flex:0.3;
+    
+    margin : 20% auto;
+    margin-left: 40px;
+    padding-left: 50px;
+    padding-right: 30px;
+    width: fit-content;   
+    color : white;
+    justify-content: space-between;
+    
+    /* margin: 3% auto; */
+}
+
+.MuiSvgIcon-root{
+    align-items: center;
+}
+.MuiSvgIcon-root:hover{
+    color:grey;
+
+}
+
+._footer_n_songDetails{
+    display: flex;
+    flex:0.5;
+    width: 100%;
+    height: 15vh;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: flex;
+}
+
+
+._Grid_parent{
+    
+}
+._footer_n_songDetails_img_div {
+    height: 100%;
+    place-items: center;
+}
+._footer_n_songDetails_img{
+
+    margin-top: 3%;
+}
+_footer_n_curr_song > h4 ,h5 , b{
+    font-family: 'Montserrat',sans-serif;
+    color:white;
+}
+
+._footer_n_curr_song{
+    margin-top: 8%;
+    margin-left: 20px;
+    margin-right:15px;
+    align-items: center;
+}
+._footer_n_center_icons{
+    margin-top: 10%;
+    margin-left: 15px;
+    color:white
+}
+
+.MuiSvgIcon-root{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+._grid{
+    height: 100%;
+}
+._grid_left{
+    background-color: grey;
+}

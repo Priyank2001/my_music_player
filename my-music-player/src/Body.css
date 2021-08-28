@@ -1,0 +1,13 @@
+
+.__body
+{
+    margin: 0px;
+    height: 81vh;
+    overflow-y: overlay;
+   background-color: rgb(28, 27, 27);
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+

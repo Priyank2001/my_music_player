@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+._login{
+    display:grid;
+    color:white;
+    place-items:center;
+    text-align:center;
+    font-family: 'Baloo Tammudu 2', cursive;
+	/*background-image:url("https://i.pinimg.com/originals/f5/25/6f/f5256f22b9dea5d4eb80c41f91f87793.jpg");*/
+    background-color:black;
+    height:100vh;
+    width:100vw;
+    margin:0px;
+}
+
+.info_query{
+    display:flex;
+    text-align : center;
+    padding:20px ;
+    height:40px;
+    align-items:center;
+    place-items:center;
+}
+
+.info_query > input 
+{
+    border:none;
+    border-radius: 10px;
+    margin-left : 20px;
+}
+
+.login_button_div {
+    margin:10px;
+    align-items:center;
+}
+
+._login_button_div > a{
+    text-decoration:none;
+    color:black;
+	align-items:center;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:10px;
+    background-color:#03c2fc;
+}
+._wrong_username{
+    color:white;
+}
+._login_button_div:hover{
+    transform: scale(1.1) ;
+    transition: 0.3s ;
+}
+
+._newId_link{
+    place-items:end;
+}
+
+._createId{
+    display:grid;
+    place-items:center;
+    background-image:url("https://wallpapercave.com/wp/wp4676582.jpg");
+	font-family: 'Baloo Tammudu 2', cursive;
+    color:white;
+    height:100vh;
+    width:100vw;
+        
+}
+
+._createId_queries{
+    display:flex;
+    height:25px;
+    align-items:center;
+    padding:10px;
+    
+}
+
+._createId_queries > input
+{
+    margin-left : 10px;
+    
+    border:none;
+}

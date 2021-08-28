@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+._songrow{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+._songrow:hover{
+    background-color: rgb(61, 60, 60);
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+._song_img{
+    text-align: center;
+    height: 80%;
+    flex:0.2;
+    margin-top: 2%;
+    margin-right: 15px;
+    margin-left: 10px;
+    
+}
+._song_img > img {
+    height: 90%;
+}
+._songDetails{
+    flex: 0.6;
+}
+
+._songDetails > h5 , h4{
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+    font-weight: 2000;
+    
+}
+
+._divider_line{
+    color:white;
+    width: 100%;
+    height: 2px;
+}

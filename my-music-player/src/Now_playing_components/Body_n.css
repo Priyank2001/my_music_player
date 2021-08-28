@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+._body_n{
+    display: flex;
+    height: 70vh;
+    margin: 0px;
+    overflow:hidden
+}
+.curr_song_img{
+    width: 100%;
+    flex:0.65;
+    background-color: black;
+    text-align:center;
+}
+.curr_song_img > img{
+    height: 60vh;
+    margin-top: 10px;
+}
+
+._queue{
+    flex: 0.35;
+    padding-top: 30px;
+    height: vh;
+    padding-right: 20px;
+    background-color: black;
+    overflow-y: overlay;
+}
+
+.queue_heading_div{
+    display: flex;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.queue_heading{
+    width: 100%;
+    flex:0.5;
+    text-align: center;
+
+}
+
+.queue_heading > h4{
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+}
+
+._song_queue
+{
+    overflow-y: overlay;
+}
+
+.MuiDivider-root {
+    border: none;
+    height: 1px;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: rgb(251 189 189);
+}

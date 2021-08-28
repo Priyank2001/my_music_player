@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+._footer_n{
+    height:15vh;
+    display: flex;
+}
+
+._footer_n_controls_div{
+    flex:0.15;
+    align-items:center;
+    text-align: center;
+    color:white;
+    display:grid;padding-right: 10%;
+    margin-left: 5%;
+}
+
+._footer_n_songDetails{
+    flex:0.65;
+    margin-left: 5%;
+    margin-right: auto;
+}
+.MuiSvgIcon-root{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+._footer_n_songDetails{
+    height: 100%;
+    display: flex;
+    color:white;
+    font-family: 'Monserrat',sans-serif;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+._footer_n_songDetails_img{
+    margin-top: 15%;
+    margin-bottom: auto;
+    height: 80%;
+}
+
+._footer_n_curr_song{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+._footer_n_center_icons{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+._footer_right{
+    flex:0.2;
+    color:white;
+    display: grid;
+    margin-top: 2.5%;
+}
+._icons_center{
+    margin-right: 5px;
+}
+
+._icons_right{
+    margin-right: 15px;
+}

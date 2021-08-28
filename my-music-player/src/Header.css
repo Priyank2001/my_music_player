@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+._header {
+    display: flex;
+    background-image: linear-gradient(to bottom right,rgb(41, 0, 189) ,rgb(88, 199, 250));
+    /* background-color: rgb(20, 9, 72); */
+    height: 34vh;
+    min-height: 230px;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+._header_img{
+    flex: 0.3;
+    justify-items: center;
+    text-align: center;
+}
+
+._header_img  > img{
+
+    
+    width: 20vw;
+    height: fit-content;
+    padding: 10px;
+
+    border-radius: 20px;
+}
+
+.para{
+    flex: 0.5;
+    color: white;
+    margin-left: 10px;
+    font-family: 'Monserrat',sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+
+.profile_info{
+    flex:0.2;
+    /* text-align: center;
+    align-items: flex-end; */
+    color: white;
+    display: grid;
+    align-items: flex-end;
+    place-items:center;
+    font-family: 'Monserrat',sans-serif;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.profile_info > img {
+    width: 43%;
+    border-radius: 50%;
+     filter: sepia(30%) saturate(0%) brightness(70%) hue-rotate(330deg); 
+    
+
+}
+.profile_info > h5{
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: black;
+    width: 40%;
+    
+    text-align: center;
+}

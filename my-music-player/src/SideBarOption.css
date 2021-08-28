@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+._sidebar_option{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sideBarOption_icon{
+    flex: 0.2;
+    
+}
+
+._sidebar_option > h5{
+    font-family: 'Monserrat',sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    
+    flex: 0.8;
+}
+
+._sidebar_option:hover{
+    transform: scale(1.02);
+    transition: 0.2s ease-in-out;
+    background-color: rgb(55, 54, 54);
+   
+}

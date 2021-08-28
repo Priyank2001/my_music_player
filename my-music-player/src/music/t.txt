@@ -1,0 +1,18 @@
+class Song{
+  constructor(Title,Artist,Img, Src,id,fav){
+    this.title = Title;
+    this.artist = Artist;
+    this.img_src = Img;
+    this.src = Src;
+    this.ID =id;
+    this.is_fav = fav; 
+  }
+}
+
+arr.push(new Song("Sick Boy","The Chainsmokers","https://images-na.ssl-images-amazon.com/images/I/616yc9rzUOL._AC_SX466_.jpg",`${addr}Sick_Boy`,1,false));
+  arr.push(new Song("Starboy","The Weeknd","https://i.pinimg.com/originals/3a/f0/e5/3af0e55ea66ea69e35145fb108b4a636.jpg",`${addr}Starboy`,2,false));
+  arr.push(new Song("First Time", "Kygo","https://images-na.ssl-images-amazon.com/images/I/81BVSz9PqML._AC_UL600_SR600,600_.jpg",`${addr}First_Time`, 3,false));
+  arr.push(new Song("All Time Low","Jon Bellion", "https://yt3.ggpht.com/ytc/AAUvwnh1KvrMkUKqJKtX_eX7D7RkhmO3XfWCMzYKOg4hXQ=s900-c-k-c0x00ffffff-no-rj",`${addr}All_Time_Low`,4,false));
+  arr.push(new Song("You are the Best Thing About Me", "Kygo","https://images-na.ssl-images-amazon.com/images/I/81BVSz9PqML._AC_UL600_SR600,600_.jpg",`${addr}You_are_the_Best_Thing_About_Me`,5,false));
+  console.log(arr);
+  setSongs(arr);

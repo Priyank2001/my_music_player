@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+._songRow
+{
+    display: flex;
+    height: 60px;
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+._songRow_index
+{
+    
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+._songRow_img{
+    
+    height: 80%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+._songRow_title{
+    flex:0.7;
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+._songRow:hover{
+    transform: scale(1.01);
+    transition:  0.3s ease-in-out;
+    background-color: rgb(102, 100, 100);
+    /* background-image: linear-gradient(to right,rgb(255, 85, 85), rgb(87, 196, 255)); */
+}
+
+._favoriteIcon{
+    flex:0.2;
+}

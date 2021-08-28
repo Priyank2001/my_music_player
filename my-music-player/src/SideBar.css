@@ -1,0 +1,15 @@
+._sidebar{
+    display: block;
+    place-items:center;
+    height: 80vh;
+    background-color: black;
+    overflow-y: overlay;
+}
+
+._sidebar_img {
+    padding: 10px;
+    margin: 20px;
+    width:60%;
+    justify-content: space-between;
+    border-radius: 50px;
+}
