@@ -82,6 +82,7 @@ function Player_copy(props){
     const [songQueue,set_songQueue] = useState(a);
     const [songlist,setSongList] = useState(props.list);
     const [curr, setstate] = useState(0);
+    //	const [currSong, set_currSong] = useState(songlist[songQueue[0]);
     let n = songlist.length;
     const [progress,setProgress] = useState(0);
     const handleFav = (i,e) => {
